@@ -12,11 +12,10 @@ Note: The script will attempt to Sync local Kali host time with Specified Domain
 
 # PROJECT NOTES
 
-> Some Inconsistency In Menu Selection (Might Need to Enter Same Number Twice)
-> Run LinCox As Sudo/Root (Certain modules such as Network Spoofing require elevated Local System permissions)
-> Must have Local Admin and Privileged Domain Admin user creds to perform certain tests and clear logs on DC
-> Commands and behaviours executed on Clients will be run as HOST$ (machine account) 
-	due to atexec assuming high integrity with admin creds == SYSTEM
+- Some Inconsistency In Menu Selection (Might Need to Enter Same Number Twice)
+- Run LinCox As Sudo/Root (Certain modules such as Network Spoofing require elevated Local System permissions)
+- Must have Local Admin and Privileged Domain Admin user creds to perform certain tests and clear logs on DC
+- Commands and behaviours executed on Clients will be run as HOST$ (machine account). This is due to atexec assuming high integrity with admin creds.
 
 # INSTALLATION
 
