@@ -1,0 +1,24 @@
+
+19 May 2022 08:47:38 - Lsass Credential Dump Performed Against pc01
+19 May 2022 08:47:42 - SAM Hive Credential Dump Performed Against pc01
+19 May 2022 08:47:48 - DCSync Performed From pc01
+19 May 2022 09:25:17 - Lsass Credential Dump Performed Against pc01
+19 May 2022 09:25:25 - SAM Hive Credential Dump Performed Against pc01
+19 May 2022 09:25:36 - DCSync Performed From pc01
+19 May 2022 09:25:47 - ZeroLogon Performed Against dc01 From pc01
+19 May 2022 09:26:07 - Host pc01 Performed Domain & Trust Query
+19 May 2022 09:26:16 - Host pc01 Performed Domain Query For Weak/Interesting ACLs
+19 May 2022 09:26:37 - Host pc01 Performed Domain Query For Domain Users' Groups
+19 May 2022 09:26:46 - Added User PCUser To Built-In Privileged Group Domain Admins
+19 May 2022 09:26:46 - Removed User PCUser From Built-In Privileged Group Domain Admins
+19 May 2022 09:27:04 - Kerbrute Performed From 192.168.159.128 Against dc01
+19 May 2022 09:27:08 - Attempted To Disable Defender On pc01 : Set-MpPreference -DisableRealtimeMonitoring $true
+19 May 2022 09:27:11 - Attempted To Remove Defender Signatures From pc01 : MpCmdRun.exe -removedefinitions -all
+19 May 2022 09:27:14 - WannaCry KillSwitch Domain Lookups Performed From pc01
+19 May 2022 09:27:17 - Random Onion Domain Lookup Performed From pc01
+19 May 2022 09:27:20 - Exploit-DB and Kali Repo Lookup Performed From pc01
+19 May 2022 09:27:23 - Simulating DNS Lookups with Base64 Content In Subdomain
+
+19 May 2022 09:27:36 - Attempted To Spoof Client Domain Resolutions On Host Restart w/ Responder & Mitm6
+19 May 2022 09:29:40 - Default Meterpreter C2 Beacon Request Simulation Attempted From 192.168.159.139
+19 May 2022 09:29:46 - AMSI Bypass Signature Triggered On pc01

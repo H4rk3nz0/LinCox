@@ -1,0 +1,5 @@
+colorama
+impacket
+configparser
+argparse
+ntplib
